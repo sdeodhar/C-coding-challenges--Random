@@ -56,7 +56,9 @@ interrupt reg_isr()
     {    if((DEV_REG & BIT(1))
 {
                 if( read_pixel_flag == 0)
-                read_pixel_flag =1;
+                {
+                    read_pixel_flag =1;
+                }
 //if DEV_REG is a read/write type of register that needs to be //cleared after reading,
 DEV_REG &= ~BIT(0);
 DEV_REG &= ~BIT(1);
