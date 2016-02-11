@@ -1,1 +1,1 @@
-# C-coding-challenges--Random
+# C / C++ coding-challenges--Random
